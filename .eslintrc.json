@@ -20,5 +20,8 @@
   "rules": {
     "node/no-unsupported-features/es-syntax": "off",
     "@typescript-eslint/consistent-type-definitions": "warn"
-  }
+  },
+  "ignorePatterns": [
+    "dist"
+  ]
 }
